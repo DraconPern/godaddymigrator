@@ -1,0 +1,1 @@
+﻿<%@ WebService Language="C#" CodeBehind="GoDaddyMigrator.asmx.cs" Class="GoDaddyMigratorWebService.GoDaddyMigrator" %>
