@@ -1,0 +1,120 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoGaddyMigrator", "GodaddyMigrator\GoGaddyMigrator.csproj", "{76E2AC5E-7C9D-4A00-8CDF-468F4464013B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmailMigratorLib", "EmailMigratorLib\EmailMigratorLib.csproj", "{52B495AF-B4F5-406B-9148-6E44546CD257}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HtmlAgilityPack VS2008", "HtmlAgilityPack\HtmlAgilityPack\HtmlAgilityPack VS2008.csproj", "{193BB801-054F-4729-9D5D-FCE1E32594BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Newtonsoft.Json.Net20", "JSON.NET\Source\Src\Newtonsoft.Json\Newtonsoft.Json.Net20.csproj", "{A9AE40FF-1A21-414A-9FE7-3BE13644CC6D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ActiveUp.Net.Imap4", "MailSystem.NET\Class Library\ActiveUp.Net.Imap4\ActiveUp.Net.Imap4.csproj", "{6BEE77DF-2DD2-41C3-BA16-60E20B1EDDCC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ActiveUp.Net.Common", "MailSystem.NET\Class Library\ActiveUp.Net.Common\ActiveUp.Net.Common.csproj", "{3A83AE95-C23F-48B4-9F1A-AD4B32C37B93}"
+EndProject
+Project("{C8D11400-126E-41CD-887F-60BD40844F9E}") = "Database", "Database\Database.dbproj", "{67CBC824-A49E-4E9B-A947-360F3DFE65C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoDaddyMigratorService", "GoDaddyMigratorService\GoDaddyMigratorService.csproj", "{79A6000A-F1C0-4365-87E2-0AF0E6CC4343}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoDaddyMigratorWebService", "GoDaddyMigratorWebService\GoDaddyMigratorWebService.csproj", "{13186F55-B668-4A50-9EA3-8F77FB145449}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		MailSystem Dev|Any CPU = MailSystem Dev|Any CPU
+		Release|Any CPU = Release|Any CPU
+		Retail|Any CPU = Retail|Any CPU
+		Trial|Any CPU = Trial|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{76E2AC5E-7C9D-4A00-8CDF-468F4464013B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76E2AC5E-7C9D-4A00-8CDF-468F4464013B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76E2AC5E-7C9D-4A00-8CDF-468F4464013B}.MailSystem Dev|Any CPU.ActiveCfg = Release|Any CPU
+		{76E2AC5E-7C9D-4A00-8CDF-468F4464013B}.MailSystem Dev|Any CPU.Build.0 = Release|Any CPU
+		{76E2AC5E-7C9D-4A00-8CDF-468F4464013B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76E2AC5E-7C9D-4A00-8CDF-468F4464013B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76E2AC5E-7C9D-4A00-8CDF-468F4464013B}.Retail|Any CPU.ActiveCfg = Release|Any CPU
+		{76E2AC5E-7C9D-4A00-8CDF-468F4464013B}.Retail|Any CPU.Build.0 = Release|Any CPU
+		{76E2AC5E-7C9D-4A00-8CDF-468F4464013B}.Trial|Any CPU.ActiveCfg = Release|Any CPU
+		{76E2AC5E-7C9D-4A00-8CDF-468F4464013B}.Trial|Any CPU.Build.0 = Release|Any CPU
+		{52B495AF-B4F5-406B-9148-6E44546CD257}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52B495AF-B4F5-406B-9148-6E44546CD257}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52B495AF-B4F5-406B-9148-6E44546CD257}.MailSystem Dev|Any CPU.ActiveCfg = Release|Any CPU
+		{52B495AF-B4F5-406B-9148-6E44546CD257}.MailSystem Dev|Any CPU.Build.0 = Release|Any CPU
+		{52B495AF-B4F5-406B-9148-6E44546CD257}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52B495AF-B4F5-406B-9148-6E44546CD257}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52B495AF-B4F5-406B-9148-6E44546CD257}.Retail|Any CPU.ActiveCfg = Release|Any CPU
+		{52B495AF-B4F5-406B-9148-6E44546CD257}.Retail|Any CPU.Build.0 = Release|Any CPU
+		{52B495AF-B4F5-406B-9148-6E44546CD257}.Trial|Any CPU.ActiveCfg = Release|Any CPU
+		{52B495AF-B4F5-406B-9148-6E44546CD257}.Trial|Any CPU.Build.0 = Release|Any CPU
+		{193BB801-054F-4729-9D5D-FCE1E32594BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{193BB801-054F-4729-9D5D-FCE1E32594BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{193BB801-054F-4729-9D5D-FCE1E32594BF}.MailSystem Dev|Any CPU.ActiveCfg = Release|Any CPU
+		{193BB801-054F-4729-9D5D-FCE1E32594BF}.MailSystem Dev|Any CPU.Build.0 = Release|Any CPU
+		{193BB801-054F-4729-9D5D-FCE1E32594BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{193BB801-054F-4729-9D5D-FCE1E32594BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{193BB801-054F-4729-9D5D-FCE1E32594BF}.Retail|Any CPU.ActiveCfg = Release|Any CPU
+		{193BB801-054F-4729-9D5D-FCE1E32594BF}.Retail|Any CPU.Build.0 = Release|Any CPU
+		{193BB801-054F-4729-9D5D-FCE1E32594BF}.Trial|Any CPU.ActiveCfg = Release|Any CPU
+		{193BB801-054F-4729-9D5D-FCE1E32594BF}.Trial|Any CPU.Build.0 = Release|Any CPU
+		{A9AE40FF-1A21-414A-9FE7-3BE13644CC6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9AE40FF-1A21-414A-9FE7-3BE13644CC6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9AE40FF-1A21-414A-9FE7-3BE13644CC6D}.MailSystem Dev|Any CPU.ActiveCfg = Release|Any CPU
+		{A9AE40FF-1A21-414A-9FE7-3BE13644CC6D}.MailSystem Dev|Any CPU.Build.0 = Release|Any CPU
+		{A9AE40FF-1A21-414A-9FE7-3BE13644CC6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9AE40FF-1A21-414A-9FE7-3BE13644CC6D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9AE40FF-1A21-414A-9FE7-3BE13644CC6D}.Retail|Any CPU.ActiveCfg = Release|Any CPU
+		{A9AE40FF-1A21-414A-9FE7-3BE13644CC6D}.Retail|Any CPU.Build.0 = Release|Any CPU
+		{A9AE40FF-1A21-414A-9FE7-3BE13644CC6D}.Trial|Any CPU.ActiveCfg = Release|Any CPU
+		{A9AE40FF-1A21-414A-9FE7-3BE13644CC6D}.Trial|Any CPU.Build.0 = Release|Any CPU
+		{6BEE77DF-2DD2-41C3-BA16-60E20B1EDDCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BEE77DF-2DD2-41C3-BA16-60E20B1EDDCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BEE77DF-2DD2-41C3-BA16-60E20B1EDDCC}.MailSystem Dev|Any CPU.ActiveCfg = MailSystem Dev|Any CPU
+		{6BEE77DF-2DD2-41C3-BA16-60E20B1EDDCC}.MailSystem Dev|Any CPU.Build.0 = MailSystem Dev|Any CPU
+		{6BEE77DF-2DD2-41C3-BA16-60E20B1EDDCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BEE77DF-2DD2-41C3-BA16-60E20B1EDDCC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BEE77DF-2DD2-41C3-BA16-60E20B1EDDCC}.Retail|Any CPU.ActiveCfg = Retail|Any CPU
+		{6BEE77DF-2DD2-41C3-BA16-60E20B1EDDCC}.Retail|Any CPU.Build.0 = Retail|Any CPU
+		{6BEE77DF-2DD2-41C3-BA16-60E20B1EDDCC}.Trial|Any CPU.ActiveCfg = Trial|Any CPU
+		{6BEE77DF-2DD2-41C3-BA16-60E20B1EDDCC}.Trial|Any CPU.Build.0 = Trial|Any CPU
+		{3A83AE95-C23F-48B4-9F1A-AD4B32C37B93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A83AE95-C23F-48B4-9F1A-AD4B32C37B93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A83AE95-C23F-48B4-9F1A-AD4B32C37B93}.MailSystem Dev|Any CPU.ActiveCfg = MailSystem Dev|Any CPU
+		{3A83AE95-C23F-48B4-9F1A-AD4B32C37B93}.MailSystem Dev|Any CPU.Build.0 = MailSystem Dev|Any CPU
+		{3A83AE95-C23F-48B4-9F1A-AD4B32C37B93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A83AE95-C23F-48B4-9F1A-AD4B32C37B93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A83AE95-C23F-48B4-9F1A-AD4B32C37B93}.Retail|Any CPU.ActiveCfg = Retail|Any CPU
+		{3A83AE95-C23F-48B4-9F1A-AD4B32C37B93}.Retail|Any CPU.Build.0 = Retail|Any CPU
+		{3A83AE95-C23F-48B4-9F1A-AD4B32C37B93}.Trial|Any CPU.ActiveCfg = Trial|Any CPU
+		{3A83AE95-C23F-48B4-9F1A-AD4B32C37B93}.Trial|Any CPU.Build.0 = Trial|Any CPU
+		{67CBC824-A49E-4E9B-A947-360F3DFE65C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67CBC824-A49E-4E9B-A947-360F3DFE65C3}.MailSystem Dev|Any CPU.ActiveCfg = Debug|Any CPU
+		{67CBC824-A49E-4E9B-A947-360F3DFE65C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67CBC824-A49E-4E9B-A947-360F3DFE65C3}.Retail|Any CPU.ActiveCfg = Release|Any CPU
+		{67CBC824-A49E-4E9B-A947-360F3DFE65C3}.Trial|Any CPU.ActiveCfg = Debug|Any CPU
+		{79A6000A-F1C0-4365-87E2-0AF0E6CC4343}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79A6000A-F1C0-4365-87E2-0AF0E6CC4343}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79A6000A-F1C0-4365-87E2-0AF0E6CC4343}.MailSystem Dev|Any CPU.ActiveCfg = Release|Any CPU
+		{79A6000A-F1C0-4365-87E2-0AF0E6CC4343}.MailSystem Dev|Any CPU.Build.0 = Release|Any CPU
+		{79A6000A-F1C0-4365-87E2-0AF0E6CC4343}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79A6000A-F1C0-4365-87E2-0AF0E6CC4343}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79A6000A-F1C0-4365-87E2-0AF0E6CC4343}.Retail|Any CPU.ActiveCfg = Release|Any CPU
+		{79A6000A-F1C0-4365-87E2-0AF0E6CC4343}.Retail|Any CPU.Build.0 = Release|Any CPU
+		{79A6000A-F1C0-4365-87E2-0AF0E6CC4343}.Trial|Any CPU.ActiveCfg = Release|Any CPU
+		{79A6000A-F1C0-4365-87E2-0AF0E6CC4343}.Trial|Any CPU.Build.0 = Release|Any CPU
+		{13186F55-B668-4A50-9EA3-8F77FB145449}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13186F55-B668-4A50-9EA3-8F77FB145449}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13186F55-B668-4A50-9EA3-8F77FB145449}.MailSystem Dev|Any CPU.ActiveCfg = Release|Any CPU
+		{13186F55-B668-4A50-9EA3-8F77FB145449}.MailSystem Dev|Any CPU.Build.0 = Release|Any CPU
+		{13186F55-B668-4A50-9EA3-8F77FB145449}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13186F55-B668-4A50-9EA3-8F77FB145449}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13186F55-B668-4A50-9EA3-8F77FB145449}.Retail|Any CPU.ActiveCfg = Release|Any CPU
+		{13186F55-B668-4A50-9EA3-8F77FB145449}.Retail|Any CPU.Build.0 = Release|Any CPU
+		{13186F55-B668-4A50-9EA3-8F77FB145449}.Trial|Any CPU.ActiveCfg = Release|Any CPU
+		{13186F55-B668-4A50-9EA3-8F77FB145449}.Trial|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
